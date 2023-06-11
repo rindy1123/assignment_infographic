@@ -1,0 +1,226 @@
+body {
+  margin: 0;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+  width: 30%;
+  height: 30%;
+  margin: 40px auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.text {
+  text-align: center;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.item-title {
+  font-size: 2.5em;
+}
+
+.training {
+  background-color: green;
+  width: 50%;
+  display: inline-block;
+}
+
+.sleep {
+  background-color: orange;
+  width: 50%;
+  float: right;
+  display: inline-block;
+}
+
+.diet {
+  background-color: red;
+  width: 50%;
+  display: inline-block;
+}
+
+.consistency {
+  background-color: blue;
+  width: 50%;
+  float: right;
+  display: inline-block;
+}
+
+.title {
+  background-color: #f75123;
+  text-align: center;
+  padding: 40px 0px;
+  font-size: 4em;
+}
+
+.description {
+  overflow-wrap: break-word;
+  margin-bottom: 30px;
+}
+
+.arrow-vertical1 {
+  position: absolute;
+  left: 23%;
+  top: 56.5%;
+  width: 40px;
+  height: 30px;
+  display: grid;
+  transform: rotate(90deg);
+}
+.arrow-vertical1:before,
+.arrow-vertical1:after {
+  content: "";
+  grid-area: 1/1;
+  background: currentColor;
+  clip-path: polygon(
+    0 10px,
+    calc(100% - 15px) 10px,
+    calc(100% - 15px) 0,
+    100% 50%,
+    calc(100% - 15px) 100%,
+    calc(100% - 15px) calc(100% - 10px),
+    0 calc(100% - 10px)
+  );
+  animation: a4 0.5s infinite alternate;
+}
+
+.arrow-vertical1:after {
+  --s: -1;
+}
+@keyframes a4 {
+  0% {
+    transform: scale(var(--s, 1)) translate(12px, -6px) translate(4px);
+  }
+  100% {
+    transform: scale(var(--s, 1)) translate(12px, -6px) translate(-4px);
+  }
+}
+
+.arrow-vertical2 {
+  position: absolute;
+  left: 73.5%;
+  top: 56.5%;
+  width: 40px;
+  height: 30px;
+  display: grid;
+  transform: rotate(90deg);
+}
+.arrow-vertical2:before,
+.arrow-vertical2:after {
+  content: "";
+  grid-area: 1/1;
+  background: currentColor;
+  clip-path: polygon(
+    0 10px,
+    calc(100% - 15px) 10px,
+    calc(100% - 15px) 0,
+    100% 50%,
+    calc(100% - 15px) 100%,
+    calc(100% - 15px) calc(100% - 10px),
+    0 calc(100% - 10px)
+  );
+  animation: a4 0.5s infinite alternate;
+}
+
+.arrow-vertical2:after {
+  --s: -1;
+}
+@keyframes a4 {
+  0% {
+    transform: scale(var(--s, 1)) translate(12px, -6px) translate(4px);
+  }
+  100% {
+    transform: scale(var(--s, 1)) translate(12px, -6px) translate(-4px);
+  }
+}
+
+.arrow-horizontal1 {
+  position: absolute;
+  left: 48.5%;
+  top: 37%;
+  width: 40px;
+  height: 30px;
+  display: grid;
+}
+.arrow-horizontal1:before,
+.arrow-horizontal1:after {
+  content: "";
+  grid-area: 1/1;
+  background: currentColor;
+  clip-path: polygon(
+    0 10px,
+    calc(100% - 15px) 10px,
+    calc(100% - 15px) 0,
+    100% 50%,
+    calc(100% - 15px) 100%,
+    calc(100% - 15px) calc(100% - 10px),
+    0 calc(100% - 10px)
+  );
+  animation: a4 0.5s infinite alternate;
+}
+
+.arrow-horizontal1:after {
+  --s: -1;
+}
+@keyframes a4 {
+  0% {
+    transform: scale(var(--s, 1)) translate(12px, -6px) translate(4px);
+  }
+  100% {
+    transform: scale(var(--s, 1)) translate(12px, -6px) translate(-4px);
+  }
+}
+
+.arrow-horizontal2 {
+  position: absolute;
+  left: 48.5%;
+  top: 79%;
+  width: 40px;
+  height: 30px;
+  display: grid;
+}
+.arrow-horizontal2:before,
+.arrow-horizontal2:after {
+  content: "";
+  grid-area: 1/1;
+  background: currentColor;
+  clip-path: polygon(
+    0 10px,
+    calc(100% - 15px) 10px,
+    calc(100% - 15px) 0,
+    100% 50%,
+    calc(100% - 15px) 100%,
+    calc(100% - 15px) calc(100% - 10px),
+    0 calc(100% - 10px)
+  );
+  animation: a4 0.5s infinite alternate;
+}
+
+.arrow-horizontal2:after {
+  --s: -1;
+}
+@keyframes a4 {
+  0% {
+    transform: scale(var(--s, 1)) translate(12px, -6px) translate(4px);
+  }
+  100% {
+    transform: scale(var(--s, 1)) translate(12px, -6px) translate(-4px);
+  }
+}
+
+.center-icon {
+  position: absolute;
+  left: 40%;
+  top: 45%;
+  width: 20%;
+  height: 20%;
+}

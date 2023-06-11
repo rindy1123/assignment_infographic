@@ -1,0 +1,44 @@
+.title {
+  font-size: 2em;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+}
+
+.training {
+  width: 100%;
+}
+
+.sleep {
+  width: 100%;
+}
+
+.diet {
+  width: 100%;
+}
+
+.consistency {
+  width: 100%;
+}
+
+.center-icon {
+  display: none;
+}
+
+.arrow-vertical1 {
+  display: none;
+}
+
+.arrow-vertical2 {
+  display: none;
+}
+
+.arrow-horizontal1 {
+  display: none;
+}
+
+.arrow-horizontal2 {
+  display: none;
+}
